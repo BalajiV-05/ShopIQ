@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--My CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>ShopIQ</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--Side Navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+    </div>
+
+    <!--Product-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="products" id="products">
+           
+
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/sari/f/7/x/free-debiboron-1-raees-ethnic-no-blouse-original-imagpt43ekfhant6.jpeg?q=90&crop=false" height="250" width="200">
+                <p>Cotton Saree</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://5.imimg.com/data5/ANDROID/Default/2022/9/RI/BE/PO/161216025/product-jpeg-500x500.jpg" height="250" width="200">
+                <p>Casual Wear</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRisCUb4a6rpTWStWEyytmPlNfHUE2jazRXxrORjkLwMFwp9xLwWYy039B7--DYM-7S1kk&usqp=CAU" height="250" width="200">
+                <p>Formal Shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/jean/b/e/c/40-eps-grey-urbano-fashion-original-imags57tkuhsprhn.jpeg?q=90&crop=false" height="250" width="200">
+                <p>Jeans</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://assets.ajio.com/medias/sys_master/root/20240716/MUdh/6696456f6f60443f31490b13/-473Wx593H-464795292-pink-MODEL.jpg" height="250" width="200">
+                <p>Cotton Saree</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://nilsonline.lk/image/cache/catalog/nils/product/018002217/171-612x875.jpg" height="250" width="200">
+                <p>Party Wear</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://www.maharaniwomen.com/wp-content/uploads/2021/09/A2.jpg" height="250" width="200">
+                <p>Silk Saree</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://pbs.twimg.com/media/CCjoqIaUEAI8nxV.jpg" height="250" width="200">
+                <p>Traditional Wear</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--Footer-->
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">ShopIQ</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores doloribus veritatis dolor
+                    reiciendis.</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@2024 ShopIQ.com</p>
+    </div>
+
+    <script src="collection.js"></script>
+</body>
+
+</html>
